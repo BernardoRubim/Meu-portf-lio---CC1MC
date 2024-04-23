@@ -13,6 +13,29 @@ body{
     max-width: 1280px;
     margin: 0 auto;
 }
+
+.flex{
+    display: flex;
+}
+.contato button{
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: cornflowerblue;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    }
+
+h2.titulo{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+h2 span{
+    color: cornflowerblue;
+}
 /* CABEÇALHO STYLE */
 header{
     padding: 40px 4%;
@@ -25,14 +48,14 @@ header > .interface{
 }
 
 header a{
-    color: #fff;
+    color: white;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
 header a:hover{
-    color:#fff ;
-    transform: scale(1.2);
+    color:white ;
+    transform: scale(1.09);
 }
 
 header nav ul{
@@ -44,16 +67,151 @@ header nav ul li{
     padding: 0 40px;
 }
 
-header .contato button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: cornflowerblue;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-}
-header .contato button:hover{
+.contato button:hover{
     box-shadow: 0px 0px 8px #90b1ec;
+    transform: scale(1.09);
 
 }
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color:white;
+    font-size: 45px;
+    line-height: 40px;
+
+}
+.topo-do-site .txt-topo-do-site h1 span{
+    color: Cornflowerblue;
+}
+.topo-do-site img{
+    width: 500px;
+    height: 500px;
+    border-radius: 40%;
+}
+
+p{
+    color:white;
+    margin: 40px 0;
+    font-size: 30px;
+    text-align: justify;
+}
+h2{
+    color: white
+}
+h3{
+    color: white
+}
+/* ESTILO DAS EXPERIÊNCIAS */
+section.experiências{
+    padding: 300px 4%;
+}
+
+section.experiências .flex{
+    gap: 60px;
+}
+
+.experiências .experiências-box{
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 45px;
+    transition: .2s;
+
+}
+
+.experiências .experiências-box:hover{
+    transform: scale(1.09);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.418);
+}
+
+.experiências .experiências-box i{
+    font-size: 70px;
+    color: cornflowerblue;
+}
+.experiências .experiências-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+/* ESTILO DAS TECNOLOGIAS */
+section .tecnologias{
+    padding: 40px 4%;
+}
+
+section .tecnologias .flex{
+    align-items: center;
+    gap: 60px;
+
+}
+.sobre .txt-tecnologias{
+    color: white;
+}
+.sobre .txt-tecnologias h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.sobre .txt-tecnologias h2 span{
+    color: cornflowerblue;
+    display: block;
+}
+.sobre .txt-tecnologias p{
+    margin: 20px;
+}
+
+
+/* ESTILO DO CONTATO */
+section.contato{
+    padding: 100px 4%;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+form input, form textarea{
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form .enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .enviar input{
+    width: 120px;
+    background-color: cornflowerblue;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: #90b1ec;
+    transform: scale(1.09);
+    transition: .2s;
+
+}
+
+    

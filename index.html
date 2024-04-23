@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital, wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
     900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- FIM GOOGLE FONTS -->
+    <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--BOOTSTRAPS ICONS FIM-->
     <link rel="stylesheet" href="style.css">
     <title>Bernardo Rubim</title>
 </head>
@@ -17,7 +20,7 @@
         <div class="interface">
             <div class="logo">
                 <a href="#">
-                    <img src="images/perfill portfólio.png" alt="Logo Bernardo Rubim">
+
                 </a>
             </div><!--logo-->
         
@@ -31,17 +34,97 @@
         </nav>
 
         <div class="contato">
-            <a href="#">
-                <button>contato</button>
-            </a>
-        </div><!--contato-->
+                <a href="#">
+                    <button>contato</button>
+                </a>
+            </div><!--contato-->
         </div><!--interface-->
     </header>
 
     <main>
         <section class="topo-do-site">
             <divc class="interface">
+               <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>SOBRE MIM <span>.</span></h1>
+                        <p>Estudante de primeiro período do curso de Ciência da Computação na Universidade de Vila Velha. Procurando entender mais sobre a área de tecnologia,
+                         evoluir como futuro agente do mercado tecnológico, e acima de tudo, poder trabalhar com o que amo.</p>
+                        
+                        <div class="contato">
+                            <a href="#">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+                
+                    <div class="img-topo-site">
+                        <img src="images/foto minha.png" alt="">
+                 </div>
+               </div> 
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+        <section class="experiências">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>EXPERIÊNCIAS.</span></h2>
+                <div class="flex">
+                    <div class="experiências-box">
+                        <i class="bi bi-briefcase"></i>
+                        <h3>Amazon</h3>
+                        <p>Fiz um estágio na amazon durante 6 meses,
+                         me rendendo experiência com o mercado estrangeiro.</p>
+                    </div><!--experiências-box-->
+                    <div class="experiências-box">
+                        <i class="bi bi-meta"></i>
+                        <h3>Meta</h3>
+                        <p>Trabalhei como desenvolvedor de jogos para óculos de realidade virtual, tendo conhecimento amplo acerca do metaverso</p>
+                    </div><!--experiências-box-->
+                    <div class="experiências-box">
+                        <i class="bi bi-google"></i>
+                        <h3>Google</h3>
+                        <p>Estagiei por 6 meses na empresa Google, resultando em minha maior experiência com desenvolvimento full-stack</p>
+                    </div><!--experiências-box-->
+                </div><!--flex-->
 
+            </div>
+
+        </section><!--Experiências-->
+
+        <section class="tecnologias">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-tecnologias">
+                        <img src="images/programação png.webp" alt="">
+
+                    </div><!--img-tecnologias-->
+
+                    <div class="txt-tecnologias">
+                        <h2><span>TECNOLOGIAS </span>QUE DOMINO.</h2>
+                        <p>Possuo experiência de nível Júnior na linguagem C</p>
+                        <p>Experiência de nível pleno em JS (Javascript)</p>
+                        <p>E por último mas não menos importante, experiência de nível pleno na linguagem C++</p>
+
+                    </div><!--txt-tecnologias-->               
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section class="contato">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo">
+                    <input type="text" name="" id="" placeholder="Seu email">
+                    <input type="text" name="" id="" placeholder="Seu celular">
+                    <textarea name="" id="" placeholder="Sua mensagem"></textarea>
+                    <div class="enviar"><input type="submit" value="ENVIAR">
+                     <div class="social">
+                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+                        <a href="#"><button><i class="bi bi-github"></i></button></a>
+                     </div><!--social-->  
+                    </div><!--ENVIAR-->
+                </form>
             </div>
         </section>
     </main>
